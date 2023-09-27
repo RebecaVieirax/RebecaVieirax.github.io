@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corinthians</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="Imagens/icon.png" type="Imagens/x-icon">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Montserrat:wght@500&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+
+</head>
+<!--o projeto foi estruturado em grid-->
+<body>
+  <!-- navegação(navbar) em bootstrap; cada item possui 
+    um href com elemento para que pudesse referenciar depois no momento em que 
+    fosse encaminhar para a opção desejada da página-->
+  <div class="topnav fixed-top navbar-light bg-light">
+    <a href="#elemento08">SCCP</a>
+    <a href="#elemento09">CARROSSEL</a>
+    <a href="#elemento10">HISTÓRIA</a>
+    <a href="#elemento">CONTATO</a>
+  </div>
+  </nav>
+
+  <!--etapa da imagem inicial-->
+  <div class="containers">
+    <div class="rows" id="elemento08">
+      <div class="card-01">
+        <img src="Imagens/ofc.jpg" alt="imagem time do corinthians">
+      </div>
+    </div>
+    
+  <!--card/retângulo-->
+    <div class="rows" id="elemento20">
+      <div class="card-02">
+        <div class="text1">CORINTHIANS <br> GRANDE </div>
+        <div class="text">Sempre Altaineiro <br> És do Brasil <br> O clube mais brasileiro!</div>
+      </div>
+    </div>
+
+  <!--etapa / e construção do carrosel-->
+    <div class="rows" id="elemento09">
+      <div class="card-03">
+        <div id="carouselExample" class="carousel slide">
+             <!--declarando as classes do carrossel-->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                <!--inserção das imagens-->
+              <img src="Imagens/simbolo.jpg" class="d-block " alt="bandeira gaviões">
+            </div>
+            <!--declarando as classes do carrossel-->
+            <div class="carousel-item">
+               <!--inserção das imagens-->
+              <img src="Imagens/cm7.jpg" class="d-block " alt="...">
+            </div>
+          <!--declarando as classes do carrossel-->
+            <div class="carousel-item">
+                   <!--inserção das imagens-->
+              <img src="Imagens/10.png" class="d-block" alt="camiseta do corinthians">
+            </div>
+          </div>
+
+           <!--inserção dos botões-->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+        <!-- os textos da história dão início nesta etapa. 
+          cada processo tem um card e uma class parágrafo para que fosse mais fácil na hora de ajustar a formatação
+        cada card posssui dois elementos, pois foram criados 6 blocos. a cada um card nascem dois quadrados-->
+    <div class="rows" id="elemento10">
+      <div class="card-04">
+         <!--inserção de imagem-->
+        <img src="Imagens/image 8.png" alt="time antigo do corinthians jogando" class="subimagens">
+      </div>
+      <div class="card-04">
+        <div class="paragrafo1">
+          <p> O Sport Club Corinthians Paulista foi fundado em 1° de setembro de 1910.
+            Seu nome foi definido só depois, em homenagem ao time inglés Corinthian FC,
+            que estava excursionando pelo Brasil na época.
+          </p>
+        </div>
+        <div class="paragrafo2">
+          <p> A equipe é a maior campeã da história do Campeonato Paulista,
+            com 26 taças com o histórico de um titulo mundial,
+            quatro Campeonatos Brasileiros e três Copas do Brasil.
+            Uma das conquistas mais comemoradas pela torcida foi a do Estadual de 1977,
+            com o famoso gol de Basilio, quebrando um tabu de 22 anos e oito meses sem títulos.
+          </p>
+        </div>
+      </div>
+    </div>
+         <!--um novo bloco de card/texto -->
+    <div class="rows" id="elemento10">
+      <div class="card-05">
+        <div class="paragrafo3">
+          <p>
+            A Democracia Corinthiana foi um movimento ocorrido no início da década de 1980,
+            que teve a luta pelo fim da ditadura militar no Brasil como uma das principais bandeiras.
+          </p>
+        </div>
+        <div class="paragrafo4">
+          <p>
+            Sócrates, Wladimir, Casagrande, Zenon e outros ex-atletas do Timão participaram da campanha
+            pela volta do direito ao voto para presidente, o que não acontecia desde 1960.Neste período,
+            o Corinthians conquistou os títulos do Paulistão de 1982 e 1983. No segundo ano, antes da final
+            contra o São Paulo, no Morumbi, os jogadores entraram em campo com uma faixa com os dizeres:
+            "Ganhar ou perder, mas sempre com democracia.
+          </p>
+        </div>
+      </div>
+    <!--um novo bloco de card/texto -->
+      <div class="card-05">
+          <!--inserção de imagem-->
+        <img src="Imagens/70.jpeg" alt="time antigo do corinthians jogando" class="subimagens">
+      </div>
+    </div>
+    <div class="rows" id="elemento10">
+      <div class="card-06">
+          <!--inserção de imagem-->
+        <img src="Imagens/image 9.png" alt="time antigo do corinthians jogando" class="subimagens">
+      </div>
+          <!--um novo bloco de card/texto -->
+      <div class="card-06">
+        <div class="paragrafo5">
+          <p> Em 1984, Sócrates prometeu deixar o Corinthians caso a Emenda Dante de Oliveira
+            não passasse, visando eleições
+            diretas no Brasil.
+          </p>
+        </div>
+        <div class="paragrafo6">
+          <p>A emenda foi apoiada pela maioria, mas reprovada no Congresso.
+            Sócrates se transferiu para a Fiorentina, enfraquecendo a Democracia Corinthiana
+            devido a maus resultados,mudanças no elenco e a derrota de Adilson Monteiro Alves nas eleições de 1985,
+            encerrando esse período no clube.</p>
+        </div>
+      </div>
+    </div>
+    <!-- esta parte referencia o footer, contém os links das redes sociais, escudo do time etc-->
+      <div class="rows" id="elemento">
+        <div class="card-07">
+          <div class="text3">#VAI <br> CORINTHIANS</div>
+          <img src="Imagens/Corinthians-logo-escudo-1.png" alt="escudo corinthians" class="escudo">
+          <img src="Imagens/line.png" alt="" class="line">
+          <footer>
+          <a href="https://www.facebook.com/corinthians/?locale=pt_BR" class="fa fa-facebook"></a>
+          <a href="https://twitter.com/Corinthians?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="fa fa-twitter"></a>
+          <a href="https://www.instagram.com/corinthians/" class="fa fa-instagram"></a>
+    </footer>
+
+
+    <!--card layout end-->
+
+</body>
+
+</html>
