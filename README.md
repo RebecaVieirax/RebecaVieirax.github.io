@@ -13,3 +13,17 @@
 ## <p align="center" > Descrição
 
 O projeto teve como objetivo desenvolver uma Landing Page para que nossas habilidades pudessem ser postas em prática
+
+## 🗃 Estrutura de pastas
+
+## 🗃 Estrutura de pastas
+
+<b> 🢒 Raiz</b> <br>
+ &emsp;<br>
+📁 <b>README.md</b><br>
+📁 <b>index.html</b><br>
+📁 <b>README.md</b><br>
+📁 <b>script.js</b><br>
+📁 <b>style.css</b><br>
+
+  
