@@ -6,6 +6,9 @@
 
 # LANDING PAGE 📚
 
+<p align="center">
+<img src="C:\Users\23025215\Pictures\LANDING" border="0">
+</p>
  <a href="https://www.linkedin.com/in/rebeca-da-silva-vieira-850a83242/">Rebeca Vieira</a>
 
 ## Professores Orientadores:  <a href="https://br.linkedin.com/in/francisco-escobar">Francisco Escobar</a>
