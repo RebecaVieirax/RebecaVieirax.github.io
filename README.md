@@ -31,7 +31,8 @@ O projeto teve como objetivo desenvolver uma Landing Page para que nossas habili
 ## 🛠 Instalação
 
 <b>I - </b> Insira o link indicado na página de pesquisa.
-* https://www.udemy.com/share/1013us3@NeOpK3_HgZqXha6ZqZoMN9titPehNBWbnn5n0Xlr3IEf9lfcbagsn4SCdh1bvr-G/
+*RebecaVieirax.github.io
+
 
 
   
